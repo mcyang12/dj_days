@@ -4,13 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DJ Days</title>
-    <link rel="stylesheet" href="styles/stylesheet.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-
-    </header>
-    
+    <h1>DJ Playlists</h1>
+    <div class="container">
+        <div id="now-playing">
+            <h2>Now Playing</h2>
+            <div id="now-playing-info">
+                <img id="album-cover" src="js/dj-album.jpg" alt="Album Cover">
+                <div id="album-details">
+                    <h3 id="album-title"></h3>
+                    <p id="album-artist"></p>
+                </div>
+            </div>
+        </div>
+        <div id="album-list">
+            <h2>Album List</h2>
+            <ul id="albums"></ul>
+        </div>
+        <div id="add-album">
+            <h2>Add New Album</h2>
+            <form id="add-album-form">
+                <input type="text" id="title" placeholder="Title" required>
+                <input type="text" id="artist" placeholder="Artist" required>
+                <input type="text" id="genre" placeholder="Genre" required>
+                <input type="url" id="cover-url" placeholder="Cover Art URL" required>
+                <button type="submit">Add Album</button>
+            </form>
+        </div>
+        <div id="library-stock-check">
+            <h2>Library Stock Check</h2>
+            <p id="stock-message"></p>
+        </div>
+    </div>
     <script src="album.json"></script>
 </body>
 </html>
