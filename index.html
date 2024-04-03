@@ -16,6 +16,10 @@
                 <div id="album-details">
                     <h3 id="album-title"></h3>
                     <p id="album-artist"></p>
+                        <audio controls>
+                            <source src="horse.ogg" type="audio/ogg">
+                            <source src="horse.mp3" type="audio/mpeg">
+                        </audio>
                 </div>
             </div>
         </div>
@@ -26,7 +30,8 @@
                     <img src="img/hippie-retro.jpg" alt="Hippie Retro Album">
                     <div class="content">
                         <h3>Hippie Retro Album</h3>
-                        <p> Add description </p>
+                        <p>Artist: John Lennon</p>
+                        <p>Song: Imagine</p>
                     </div>
                 </div>
             </div>
@@ -35,7 +40,8 @@
                 <img src="img/80s-retro.jpg" alt="80s Retro Album">
                 <div class="content">
                     <h3>80s Retro Album</h3>
-                    <p> Add Description </p>
+                    <p>Artist: Cyndi Lauper</p>
+                    <p>Song: Girls Just Wanna Have Fun</p>
                 </div>
             </div>
         </div>
@@ -44,7 +50,8 @@
                 <img src="img/dixie-retro.jpg" alt="Dixie Retro Album">
                 <div class="content">
                     <h3>Dixie Retro Album</h3>
-                    <p> Add Description </p>
+                    <p>Artist: Jazzi Player</p>
+                    <p>Song: Retro Dixie Jazz</p>
                 </div>
             </div>
         </div> 
@@ -53,7 +60,8 @@
                 <img src="img/party-retro.jpg" alt="Party Retro Album">
                 <div class="content">
                     <h3>Party Retro Album</h3>
-                    <p> Add Description </p>
+                    <p>Artist: The Jackson 5</p>
+                    <p>Song: I Want You Back</p>
                 </div>
             </div>
         </div>
@@ -61,13 +69,13 @@
         <div class="add-album">
             <h2>Add New Album</h2>
                 <label for="title-input">Title</label>
-                <input type="text" id="title" placeholder="Title">
+                <input type="text" id="title">
                 <label for="artist-input">Artist</label>
-                <input type="text" id="artist" placeholder="Artist">
+                <input type="text" id="artist">
                 <label for="genre-input">Genre</label>
-                <input type="text" id="genre" placeholder="Genre">
+                <input type="text" id="genre">
                 <label for="cover-url-input">Cover Art URL</label>
-                <input type="url" id="cover-url" placeholder="Cover Art URL">
+                <input type="url" id="cover-url">
                 <button type="submit">Add Album</button>
         </div>
         <div id="library-stock-check">

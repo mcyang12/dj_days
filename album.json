@@ -1,0 +1,26 @@
+[
+    {
+        "title": "Hippie Retro Album",
+        "artist": "Various Artists",
+        "genre": "Retro",
+        "coverUrl": "img/hippie-retro.jpg"
+    },
+    {
+        "title": "80s Retro Album",
+        "artist": "Various Artists",
+        "genre": "Retro",
+        "coverUrl": "img/80s-retro.jpg"
+    },
+    {
+        "title": "Dixie Retro Album",
+        "artist": "Various Artists",
+        "genre": "Retro",
+        "coverUrl": "img/dixie-retro.jpg"
+    },
+    {
+        "title": "Party Retro Album",
+        "artist": "Various Artists",
+        "genre": "Retro",
+        "coverUrl": "img/party-retro.jpg"
+    }
+]
