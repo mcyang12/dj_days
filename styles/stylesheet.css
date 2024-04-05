@@ -4,21 +4,15 @@ body {
     margin-bottom: 3rem;
     margin-left: 10%;
     margin-right: 10%;
-    background-image: url("../img/background-5.jpg");
-    color: white;
-    background-size: cover;
-
-    padding-top: 100px;
-    padding-bottom: 100px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(199, 177, 219);
 }
-
-/* YouTube-Kevin Powell */
 
 .container {
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
-    background-color: #b1a1a1;
+    background-color: #d5d0d0;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -76,11 +70,14 @@ input[type="text"], input[type="number"], select {
 
 .retro {
     width: 350px;
-    padding: 15px;
-    background-color: #fbf9f9;
-    box-shadow: 1px 1px 2px 0 rgba(60,60,60,0.1);
     border: solid 1px #474545;
     color: black;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .retro img {
@@ -90,4 +87,8 @@ input[type="text"], input[type="number"], select {
     border-top-left-radius: 5px;
 }
 
-
+.audio-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
