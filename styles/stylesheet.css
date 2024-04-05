@@ -5,16 +5,19 @@ body {
     margin-left: 10%;
     margin-right: 10%;
     color: rgb(255, 255, 255);
-    background-color: rgb(199, 177, 219);
+    background-image: url("../img/background-2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
 }
 
 .container {
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
-    background-color: #d5d0d0;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
 
 h1 {
