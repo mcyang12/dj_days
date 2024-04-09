@@ -94,3 +94,14 @@ input[type="text"], input[type="number"], select {
     justify-content: center;
     align-items: center;
 }
+
+.photos img {
+    width: 100%;
+}
+
+.photos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+}
