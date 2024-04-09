@@ -84,7 +84,7 @@ input[type="text"], input[type="number"], select {
 
 .retro img {
     width: 100%;
-    height: 240px;
+    height: 300px;
     object-fit: contain;
     border-top-left-radius: 5px;
 }
@@ -97,6 +97,7 @@ input[type="text"], input[type="number"], select {
 
 .photos img {
     width: 100%;
+    height: 350px;
 }
 
 .photos {
