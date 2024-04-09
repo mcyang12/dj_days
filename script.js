@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function() {
             albums.forEach(album => {
                 addAlbumToList(album);
             });
-            checkStock();
+            checkStock(albums.length); // Pass the length of albums array to checkStock function
         })
         .catch(error => console.error("Error loading albums:", error));
 
@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", function() {
         const album = { title, artist, genre, coverUrl };
         addAlbumToList(album);
         addAlbumForm.reset();
-        checkStock();
+        checkStock(albumList.children.length + 1); // Increment the count by 1 for the new album
     });
 
     // Function to add album to the list
@@ -58,12 +58,11 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
     // Function to check stock and update message
-    function checkStock() {
-        const totalAlbums = albumList.childElementCount;
-        if (totalAlbums < 10) {
-            stockMessage.textContent = "You need more albums to play a full set.";
+    function checkStock(albumCount) {
+        if (albumCount < 10) {
+            stockMessage.innerText = "You need more albums to play a full set.";
         } else {
-            stockMessage.textContent = "You're ready to start playing your DJ set!";
+            stockMessage.innerText = "You're ready to start playing your DJ set.";
         }
     }
 });
